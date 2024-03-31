@@ -59,8 +59,8 @@ Leave-No-Trace Ethics
 - Toilet paper
 - Lint roller
 - Zip ties
-- Ibuprofin
-- Wet wipes
+- Ibuprofen
+- Wet Wipes
 - Towels
 - Non-perishable foods (cans & oat milk liters)
 - Foldable shovel (poop shovel)
@@ -83,7 +83,7 @@ Leave-No-Trace Ethics
 - https://smartfinancial.com/is-it-illegal-to-sleep-in-your-car
 
 
-#### Additional Car Battery installation
+#### Additional Car Battery Installation
 
 - https://www.youtube.com/watch?v=cLCAIXEVy94
 
@@ -109,7 +109,7 @@ Camping in your Prius can be a fun and cost-effective way to explore the great o
 1. Camping chairs and a folding table: These will provide a comfortable place to eat and relax.
 2. Solar charger: Keep your devices charged with a solar-powered charger.
 3. Bug repellent: Protect yourself from insects with a reliable bug repellent.
-4. Multitool: A multitool can come in handy for various tasks, such as cutting rope or opening cans.
+4. Multi-tool: A multi-tool can come in handy for various tasks; such as cutting rope or opening cans.
 5. Extra blankets: Stay warm and cozy with extra blankets for chilly nights.
 
 #### Tips and Suggestions
@@ -119,6 +119,6 @@ Camping in your Prius can be a fun and cost-effective way to explore the great o
 3. Be mindful of your car battery: If you plan on using the car's power for charging devices or running a fan, make sure to monitor your battery's charge level.
 4. Keep your car organized: Use storage containers and organizers to keep your gear and supplies neat and easily accessible.
 5. Stay clean: Bring wet wipes, hand sanitizer, and a portable shower for staying clean on the go.
-6. Be respectful of nature: Follow Leave No Trace principles and leave your campsite better than you found it.
-7. Stay safe: Always let someone know your travel plans and check-in regularly.
+6. Be respectful of nature: Follow the Leave No Trace principles and leave your campsite better than you found it.
+7. Stay safe: Always let someone know your travel plans and check-in regularly when you have service.
 8. Have fun: Embrace the adventure and enjoy the unique experience of car camping in your Prius!
