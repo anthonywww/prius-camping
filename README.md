@@ -1,6 +1,6 @@
 # Prius Camping
 
-This repository contains the source code and documentation regarding my 2014 Prius camping setup. Dignostics and vehicle sensor data provided by the ECU over a USB OBD2 serial cable (`ISO 9141`) to a Raspberry Pi dashboard.
+This repository contains the source code and documentation regarding my 2014 Prius camping setup. Diagnostics and vehicle sensor data provided by the ECU over a USB OBD2 serial cable (`ISO 9141`) to a Raspberry Pi dashboard.
 
 I also provide helpful tips and recommended items in my [Prius Camping & Survival Overview](./docs/README.md).
 
@@ -8,9 +8,9 @@ Please join our 𝕏 [Prius Camping Community](https://x.com/i/communities/17601
 
 ## Components
 - This repo covers the following:
-  - Captive Poral Pages
+  - Captive Portal Pages
   - pfSense Configuration
-  - RaspberryPi FS Overlays and configurations
+  - RaspberryPi FS Overlays and Configurations
 - [prius-camping-api](https://github.com/anthonywww/prius-camping-api) - Main API Service
 - [prius-camping-gateway](https://github.com/anthonywww/prius-camping-gateway) - Live Events WebSocket Server Gateway
 - [prius-camping-dash](https://github.com/anthonywww/prius-camping-dash) - Web Dashboard
@@ -23,14 +23,14 @@ For a list of hardware used in this project [click here](./docs/prius_camping.md
 - [x] Raspberry Pi 4 (model B) Raspbian (Debian) Linux Computer.
 - [x] 10.1" LCD DSI Touch Display.
 - [x] 2kW 120v AC Inverter.
-- [x] Starlink
-  - [x] Total bypass of Starlink Router
-  - [ ] Starlink gRPC endpoint statistics
-  - [ ] Starlink IPv4 GCNAT + IPv6 Port Forward
-- [ ] Internal Web Server for UI Dashboard (Firefox in Kiosk mode)
-  - [ ] Onscreen JS Keyboard
-- [ ] Exposable API server (provides OBD-II data)
-- [ ] Exposable Web Server UI for car's website
+- [ ] Starlink:
+  - [X] Total bypass of Starlink Router.
+  - [ ] Starlink gRPC endpoint statistics.
+  - [ ] Starlink IPv4 GCNAT + IPv6 port forward.
+- [ ] Internal Web Server for UI Dashboard (Firefox in Kiosk mode):
+  - [ ] Onscreen JS keyboard.
+- [ ] Exposable API server (provides OBD-II data).
+- [ ] Exposable Web Server UI for car's website.
 
 
 ## Result
