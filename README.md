@@ -1,45 +1,65 @@
 # Prius Camping
 
-This repository contains the source code and documentation regarding my 2014 Prius camping setup. Diagnostics and vehicle sensor data provided by the ECU over a USB OBD2 serial cable (`ISO 9141`) to a Raspberry Pi dashboard.
+This repository contains the source code and documentation regarding my 2014 Toyota Prius camping setup. Diagnostics and vehicle sensor data provided by the ECUs are read over USB OBD-II serial cable (`ISO 9141`) to a Raspberry Pi API service & dashboard.
 
-I also provide helpful tips and recommended items in my [Prius Camping & Survival Overview](./docs/README.md).
+See helpful tips and recommended items in my [Prius Camping & Survival Overview](./docs/README.md).
 
 Please join our 𝕏 [Prius Camping Community](https://x.com/i/communities/1760105186679570893)!
 
-## Components
-- This repo covers the following:
-  - Captive Portal Pages
-  - pfSense Configuration
-  - RaspberryPi FS Overlays and Configurations
-- [prius-camping-api](https://github.com/anthonywww/prius-camping-api) - Main API Service
-- [prius-camping-gateway](https://github.com/anthonywww/prius-camping-gateway) - Live Events WebSocket Server Gateway
-- [prius-camping-dash](https://github.com/anthonywww/prius-camping-dash) - Web Dashboard
-- [prius-camping-site](https://github.com/anthonywww/prius-camping-site) - LAN Site & Post Captive Portal Landing Page
 
-## Features
+### Table of Contents
 
-For a list of hardware used in this project [click here](./docs/prius_camping.md#hardware).
+- [Features](#features)
+- [Result](#result)
+- [Install](#install)
+- **[>> Development Roadmap](./docs/development.md)**
+- [Special Thanks](#special-thanks)
 
+----
+
+## [#](#features) Features
+
+See the [services layout](./docs/services.md) for more details.
+You may also want to see the [hardware involved](./docs/prius_camping.md#hardware).
+
+- [x] pfSense Gateway:
+  - [x] Captive Portal.
+  - [x] DNS Resolver.
+  - [x] DHCP Server.
+  - [x] Dual-WAN fail-over.
 - [x] Raspberry Pi 4 (model B) Raspbian (Debian) Linux Computer.
-- [x] 10.1" LCD DSI Touch Display.
-- [x] 2kW 120v AC Inverter.
+  - [ ] API Service.
+  - [ ] WebSocket Gateway.
+  - [ ] MariaDB Database.
+  - [ ] Dashboard Web Server:
+    - [ ] Firefox in Kiosk mode.
+    - [ ] Onscreen JS keyboard.
+    - [x] 10.1" LCD DSI Touch Display.
+  - [ ] LAN Web Server:
+    - [ ] Intra-network web chat.
+    - [ ] Nostalgic web-based games.
 - [ ] Starlink:
-  - [X] Total bypass of Starlink Router.
-  - [ ] Starlink gRPC endpoint statistics.
-  - [ ] Starlink IPv4 GCNAT + IPv6 port forward.
-- [ ] Internal Web Server for UI Dashboard (Firefox in Kiosk mode):
-  - [ ] Onscreen JS keyboard.
-- [ ] Exposable API server (provides OBD-II data).
-- [ ] Exposable Web Server UI for car's website.
+  - [x] Total bypass of Starlink Router via PoE injector.
+  - [ ] gRPC endpoint metrics.
+  - [ ] IPv4 GCNAT + IPv6 port forward (NAT64?).
+- [ ] WiFi:
+  - [x] Vonets WAN IN (STATION mode).
+    - [x] Pre-configured list of networks to automatically join.
+  - [x] Vonets LAN OUT (AP mode).
+- [x] 2kW 120v AC Inverter.
 
 
-## Result
+## [#](#result) Result
 
-**TBA:** These are some images of the project. Screenshots and pictures of the wiring.
+**TBA:** These are some images of the project.
 
 
 
-## Install
+
+
+
+
+## [#](#install) Install
 
 ### 1. Setup
 
@@ -92,59 +112,8 @@ Now run `./deploy.sh install <host>` to install the project on to the host.
 
 
 
+## [#](#special-thanks) Special Thanks
 
-
-
-
-## Development
-
-
-
-### UI Layout
-
-
-- [ ] GENERAL
-  - [ ] Dashboard
-  - [ ] 3D View
-  - [ ] HVAC
-  - [ ] Map
-  - [ ] System Logs
-- [ ] NETWORK
-  - [ ] Status
-    - [ ] Starlink
-    - [ ] WiFi
-    - [ ] Upstream
-    - [ ] Downstream
-    - [ ] WiFi Enabled
-    - [ ] DNS Status
-    - [ ] DHCP Status
-    - [ ] Captive Portal
-    - [ ] DNS Overrides
-  - [ ] Web Browser (sandboxed iframe?)
-- [ ] SENSORS
-  - [ ] Status
-    - [ ] Thermal Sensors
-    - [ ] Pressure Sensors
-    - [ ] Accelerometer Sensors
-    - [ ] Ultrasonic Sensors
-    - [ ] Outside Temperature
-    - [ ] Inside Temperature
-
-
-### Database Configuration
-
-
-
-
-
-
-
-
-
-
-
-
-## Special Thanks
 - My friends: Kyle, Harsh, Wade, Ashley, Khushi, Marcus
 - Nikki Delventhal
 - Levi & Leah
