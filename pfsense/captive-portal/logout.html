@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login - Dolores Access Portal</title>
+		<meta charset="UTF-8">
+		<meta name="title" content="">
+		<meta name="author" content="">
+		<meta name="description" content="">
+		<meta name="tags" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<meta name="og:title" content="">
+		<meta name="og:description" content="">
+		<meta name="og:image" content="/captiveportal-favicon.png">
+		<meta name="theme-color" content="#000066">
+		<meta name="background-color" content="#131313">
+		<link rel="icon" href="/favicon.png" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link type="application/json+oembed" href="/oembed.json">
+		<!-- Begin CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+			integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/show-your-terms/1.1.1/show-your-terms.min.css"
+			integrity="sha512-+279nwKfD71B9iAEZqRAZEVAdgb7W0NqrDGKMG3I7l8dPAEw2qSMBpZ2ITLj4ieaAIkrDH+QjR7scM15n16yCg=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+		<!-- End CSS -->
+	</head>
+	<title>Login - Dolores Captive Portal</title>
+	</head>
+
+	<body>
+		<h1>Welcome</h1>
+
+		<div>
+			<p>Enter a valid voucher code:</p>
+			<form method="post" action="$PORTAL_ACTION$">
+				<input name="auth_voucher" type="text">
+				<input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+				<input name="zone" type="hidden" value="$PORTAL_ZONE$">
+				<input name="accept" type="submit" value="Continue">
+			</form>
+		</div>
+
+		<div>
+			<p>Or login to the management portal:</p>
+			<form method="post" action="$PORTAL_ACTION$">
+				<input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+				<input name="zone" type="hidden" value="$PORTAL_ZONE$">
+				<input class="button" type="submit" value="Logout">
+			</form>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,35 @@
+# Config
+raspberrypi/config.sh
+!raspberrypi/example-config.sh
+
+# OS specific
+*.DS_Store
+Thumbs.db
+*.bak
+*.log
+hs_err_pid*
+replay_pid*
+
+# Binaries
+__pycache__/
+bin/
+*.pyc
+*.bin
+*.o
+*.so
+*.dylib
+*.lib
+*.a
+*.exe
+*.dll
+*.app/
+*.AppImage
+
+# IDE specific
+.idea/
+.vscode/
+.idea_modules/
+.project
+.classpath
+.settings/
+

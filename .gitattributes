@@ -1,0 +1,15 @@
+# GitHub Linguist Coloring
+*.md linguist-language=Markdown
+*.md linguist-generated=false
+*.md linguist-documentation=false
+*.md linguist-detectable=true
+*.dm linguist-language=Darkmatter
+*.asm linguist-language=Assembly
+*.ll linguist-language=LLVM
+*.java linguist-language=Java
+*.js linguist-language=JavaScript
+*.py linguist-language=Python
+*.sh linguist-language=Shell
+*.lua linguist-language=Lua
+*.json linguist-language=JSON
+*.toml linguist-language=TOML

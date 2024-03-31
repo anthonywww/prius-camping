@@ -1,0 +1,2 @@
+console=serial0,115200 console=tty1 root=PARTUUID=7122f66c-02 net.ifnames=0 rootfstype=ext4 fsck.repair=yes rootwait fbcon=map:10 fbcon=rotate:0 fbcon=font:ProFont6x11 vt.cur_default=6 vt.color=0x07
+
